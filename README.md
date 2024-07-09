@@ -3,9 +3,10 @@
 ## 🗒️ branch 사용방법
 1. 해당 repo를 fork 뜬다.
 2. fork 떠온 개인 repo에서 하루마다 문제를 푼다.
-3. 최종 다 푼 문제는 매일 sweet-algorithm branch에 pr를 날린다.
-   (다른 사람도 함께 볼 수 있도록!!)
-4. pr의 merge는 매일 자정이 넘어가기 10분전쯤 진행한다. => 해당 pr에 리뷰를 달수 있음 !
+3. 최종 다 푼 문제는 매일 sweet-algorithm repo 속 각자의 branch에 pr을 날리고 merge 한다. (jimin/gayoung/hoeun)
+   (필요하면 리뷰 달기도 ok)
+4. 일주일의 마지막 날 main branch 에 자신이 일주일 동안 푼 문제들을 pr 날린다.
+5. 이때 모든 사람이 문제 푼 방식을 보며 리뷰 할 수 있다. merge는 월요일이 되기전까지 마무리 한다.
 
 ## 👨‍👩‍👧‍👦 참여인원 소개
 
