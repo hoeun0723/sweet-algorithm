@@ -36,13 +36,13 @@ int main() {
     for (int i = N; i >= 1; i--) {
         dp_back[i] = 1;
         for (int j = N; j >= i; j--) {
-            if (arr[i] > arr[j] && dp_back[j] + 1 > dp_back[j]) {
+            if (arr[i] > arr[j] && dp_back[j] + 1 > dp_back[i]) {
                 dp_back[i] = dp_back[j] + 1;
             }
         }
     }
 
-    for (int i = 0; i <= N; i++) {
+    for (int i = 1; i <= N; i++) {
         if (answer < dp_front[i] + dp_back[i] - 1) answer = dp_front[i] + dp_back[i] - 1;
     }
     cout << answer << '\n';
